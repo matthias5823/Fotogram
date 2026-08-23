@@ -13,7 +13,7 @@
 
     <title>Fotogram</title>
 
-    <script src="./scr/js/script.js"></script>
+    <script src="./scr/js/script.js" defer></script>
 </head>
 
 <body onload="generatePicture ()">
@@ -31,10 +31,10 @@
 
     </main>
 
-    <dialog closedby="any" id="bigbox"></dialog>
+    <dialog closedby="any" id="bigbox" aria-labelledby="namePicture" aria-describedby="big-Piture"></dialog>
 
 
-    <footer>
+    <footer class="main-footer">
         <address>
             <div>
                 <img class="footer-Logo" src="./scr/assets/icon/availability-svgrepo-com.svg"

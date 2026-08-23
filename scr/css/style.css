@@ -59,7 +59,7 @@ H1 {
     justify-content: center;
 }
 
-footer {
+.main-footer {
     margin-top: auto;
     height: 128px;
     width: 100dvw;
@@ -70,7 +70,7 @@ footer {
     border-radius: 84% 84% 0 0 / 56% 56% 0 0;
 }
 
-footer>address>div {
+.main-footer>address>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,7 @@ footer>address>div {
     font-weight: 700;
 }
 
-footer>address>div>p {
+.main-footer>address>div>p {
     text-align: center;
 }
 
@@ -103,6 +103,11 @@ footer>address>P {
     main {
         padding: 0 max(123px, calc(50% - 720px));
     }
+
+    .capa-Logo {
+        margin-left: max(140px, calc(50% - 720px));
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width:1279px) {
@@ -152,7 +157,7 @@ footer>address>P {
     }
 
     main {
-        padding:0;
+        padding: 0;
     }
 
     .capa-Logo {
