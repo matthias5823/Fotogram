@@ -20,7 +20,7 @@ body {
 
 header {
     height: 80px;
-    width: 100dvw;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: var(--blue95);
@@ -42,7 +42,7 @@ main {
 
 
 
-H1 {
+h1 {
     padding: 98px 0 123px 0px;
     font-size: 3.5rem;
     font-weight: 800;
@@ -62,7 +62,7 @@ H1 {
 .main-footer {
     margin-top: auto;
     height: 128px;
-    width: 100dvw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: last baseline;
@@ -123,7 +123,7 @@ footer>address>P {
 }
 
 @media screen and (min-width: 481px) and (max-width:768px) {
-    H1 {
+    h1 {
         padding: 54px 0 81px 0;
         font-size: 3rem;
     }
@@ -170,7 +170,7 @@ footer>address>P {
         padding-bottom: 47px;
     }
 
-    H1 {
+    h1 {
         padding: 54px 0 56px 0;
         font-size: 2.5rem;
     }
